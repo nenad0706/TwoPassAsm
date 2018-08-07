@@ -1,0 +1,11 @@
+.extern c
+.data
+.char 'a', 'b', 'c', 'd', 'e', 'f'
+	.long 3, 2, 4
+b:
+	.long 742034
+
+.text
+main:
+	.long c
+.end

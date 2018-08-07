@@ -1,0 +1,12 @@
+.global b
+.data
+.char 'a', 'b', 'c'
+b:
+	.long 742034
+.text
+main:
+	moval r1, r2
+	moval r2, 20
+	moval r3, &a
+	pushal r4
+.end
